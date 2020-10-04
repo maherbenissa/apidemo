@@ -23,7 +23,7 @@ namespace apidemo.Controllers
         [HttpGet]
         public IEnumerable<string> Get()
         {
-            return new string[]{"maher", "ben issa"};
+            return new string[]{"maher", "ben issa", "benissa"};
         }
 
         [HttpGet("{id}")]
