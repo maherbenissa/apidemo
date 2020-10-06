@@ -38,6 +38,14 @@ namespace apidemo.Controllers
         {
             return new string[]{"2 maher ben issa", "3 ben issa maher"};
         }
+
+
+        [HttpGet]
+        [Route("full")]
+        public IEnumerable<string> full()
+        {
+            return new string[]{"full maher ben issa", "full ben issa maher"};
+        }
  
     }
 }
